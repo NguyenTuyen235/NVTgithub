@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QLDiem" Class="QLdiemDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ASUSPHUONG\MISASME2015;Initial Catalog=QLDiem;Integrated Security=True" SettingsObjectName="QLDiem.Properties.Settings" SettingsPropertyName="QLDiemConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ThongTin" Member="ThongTins">
+    <Type Name="ThongTin">
+      <Column Name="tinh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="donViChuQuan" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="tenTruong" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="khoaHoc" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="nganhHoc" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="chuyenNganh" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DangNhap" Member="DangNhaps">
+    <Type Name="DangNhap">
+      <Column Name="userName" Type="System.String" DbType="NVarChar(100) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="passWord" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Quyen" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.DiemHP" Member="DiemHPs">
+    <Type Name="DiemHP">
+      <Column Name="maSV" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="maMon" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="diemLan1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="diemLan2" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="MonHP_DiemHP" Member="MonHP" ThisKey="maMon" OtherKey="maMon" Type="MonHP" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="SinhVien_DiemHP" Member="SinhVien" ThisKey="maSV" OtherKey="maSV" Type="SinhVien" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HocKy" Member="HocKies">
+    <Type Name="HocKy">
+      <Column Name="maHK" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tenHK" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="HocKy_MonHP" Member="MonHPs" ThisKey="maHK" OtherKey="maHK" Type="MonHP" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Lops" Member="Lops">
+    <Type Name="Lop">
+      <Column Name="maLop" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tenLop" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Association Name="Lop_SinhVien" Member="SinhViens" ThisKey="maLop" OtherKey="maLop" Type="SinhVien" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MonHP" Member="MonHPs">
+    <Type Name="MonHP">
+      <Column Name="maMon" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tenMon" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="soTinChi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="maHK" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="MonHP_DiemHP" Member="DiemHPs" ThisKey="maMon" OtherKey="maMon" Type="DiemHP" />
+      <Association Name="HocKy_MonHP" Member="HocKy" ThisKey="maHK" OtherKey="maHK" Type="HocKy" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SinhVien" Member="SinhViens">
+    <Type Name="SinhVien">
+      <Column Name="maSV" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="hoTen" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ngaySinh" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="gioiTinh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="noiSinh" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="danToc" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="maLop" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="SinhVien_DiemHP" Member="DiemHPs" ThisKey="maSV" OtherKey="maSV" Type="DiemHP" />
+      <Association Name="Lop_SinhVien" Member="Lop" ThisKey="maLop" OtherKey="maLop" Type="Lop" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.BangDiemHP" Method="BangDiemHP">
+    <Parameter Name="maLop" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="maMon" Type="System.String" DbType="NVarChar(50)" />
+    <ElementType Name="BangDiemHPResult">
+      <Column Name="maSV" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="hoTen" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ngaySinh" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="diemLan1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="diemLan2" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.ThongTin_Update" Method="ThongTin_Update">
+    <Parameter Name="tinh" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="donViChuQuan" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="tenTruong" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="khoaHoc" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="nganhHoc" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="chuyenNganh" Type="System.String" DbType="NVarChar(100)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.DangNhap_Delete" Method="DangNhap_Delete">
+    <Parameter Name="userName" Type="System.String" DbType="NVarChar(100)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.DangNhap_Insert" Method="DangNhap_Insert">
+    <Parameter Name="userName" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="passWord" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="Quyen" Parameter="quyen" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.DangNhap_SelectAll" Method="DangNhap_SelectAll">
+    <ElementType Name="DangNhap_SelectAllResult">
+      <Column Name="userName" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="passWord" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Quyen" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.DangNhap_SelectQuyen" Method="DangNhap_SelectQuyen">
+    <Parameter Name="Quyen" Parameter="quyen" Type="System.String" DbType="NVarChar(50)" />
+    <ElementType Name="DangNhap_SelectQuyenResult">
+      <Column Name="userName" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="passWord" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Quyen" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.DangNhap_Update" Method="DangNhap_Update">
+    <Parameter Name="userName" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="passWord" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="Quyen" Parameter="quyen" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.DiemHP_Insert" Method="DiemHP_Insert">
+    <Parameter Name="maMon" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="maSV" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.DiemHP_Search" Method="DiemHP_Search">
+    <Parameter Name="maMon" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="maSV" Type="System.String" DbType="NVarChar(50)" />
+    <ElementType Name="DiemHP_SearchResult">
+      <Column Name="maSV" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="maMon" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="diemLan1" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="diemLan2" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.DiemHP_UpdateLan1" Method="DiemHP_UpdateLan1">
+    <Parameter Name="diemLan1" Type="System.Double" DbType="Float" />
+    <Parameter Name="maMon" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="maSV" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.DiemHP_UpdateLan2" Method="DiemHP_UpdateLan2">
+    <Parameter Name="diemLan2" Type="System.Double" DbType="Float" />
+    <Parameter Name="maMon" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="maSV" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.HocKy_Delete" Method="HocKy_Delete">
+    <Parameter Name="maHK" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.HocKy_Insert" Method="HocKy_Insert">
+    <Parameter Name="maHK" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="tenHK" Type="System.String" DbType="NVarChar(100)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.HocKy_SelectAll" Method="HocKy_SelectAll">
+    <ElementType Name="HocKy_SelectAllResult">
+      <Column Name="maHK" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="tenHK" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.HocKy_Update" Method="HocKy_Update">
+    <Parameter Name="maHK" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="tenHK" Type="System.String" DbType="NVarChar(100)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Lops_Delete" Method="Lops_Delete">
+    <Parameter Name="maLop" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Lops_Insert" Method="Lops_Insert">
+    <Parameter Name="maLop" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="tenLop" Type="System.String" DbType="NVarChar(100)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.Lops_SelectAll" Method="Lops_SelectAll">
+    <ElementType Name="Lops_SelectAllResult">
+      <Column Name="maLop" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="tenLop" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.Lops_Update" Method="Lops_Update">
+    <Parameter Name="maLop" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="tenLop" Type="System.String" DbType="NVarChar(100)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.MonHP_Delete" Method="MonHP_Delete">
+    <Parameter Name="maMon" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.MonHP_Insert" Method="MonHP_Insert">
+    <Parameter Name="maMon" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="tenMon" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="soTinChi" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="maHK" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.MonHP_SelectAll" Method="MonHP_SelectAll">
+    <ElementType Name="MonHP_SelectAllResult">
+      <Column Name="maMon" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="tenMon" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="soTinChi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="maHK" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.MonHP_SelectMaHK" Method="MonHP_SelectMaHK">
+    <Parameter Name="maHK" Type="System.String" DbType="NVarChar(50)" />
+    <ElementType Name="MonHP_SelectMaHKResult">
+      <Column Name="maMon" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="tenMon" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="soTinChi" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="maHK" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.MonHP_Update" Method="MonHP_Update">
+    <Parameter Name="maMon" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="tenMon" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="soTinChi" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SinhVien_Delete" Method="SinhVien_Delete">
+    <Parameter Name="maSV" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SinhVien_Insert" Method="SinhVien_Insert">
+    <Parameter Name="maSV" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="hoTen" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="ngaySinh" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="gioiTinh" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="noiSinh" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="danToc" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="maLop" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SinhVien_Search" Method="SinhVien_Search">
+    <Parameter Name="hoTen" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="maLop" Type="System.String" DbType="NVarChar(50)" />
+    <ElementType Name="SinhVien_SearchResult">
+      <Column Name="maSV" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="hoTen" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ngaySinh" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="gioiTinh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="noiSinh" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="danToc" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="maLop" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SinhVien_SelectAll" Method="SinhVien_SelectAll">
+    <ElementType Name="SinhVien_SelectAllResult">
+      <Column Name="maSV" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="hoTen" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ngaySinh" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="gioiTinh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="noiSinh" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="danToc" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="maLop" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SinhVien_SelectID" Method="SinhVien_SelectID">
+    <Parameter Name="maSV" Type="System.String" DbType="NVarChar(50)" />
+    <ElementType Name="SinhVien_SelectIDResult">
+      <Column Name="maSV" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="hoTen" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ngaySinh" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="gioiTinh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="noiSinh" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="danToc" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="maLop" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SinhVien_SelectMaLop" Method="SinhVien_SelectMaLop">
+    <Parameter Name="maLop" Type="System.String" DbType="NVarChar(50)" />
+    <ElementType Name="SinhVien_SelectMaLopResult">
+      <Column Name="maSV" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="hoTen" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="ngaySinh" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="gioiTinh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="noiSinh" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="danToc" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="maLop" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SinhVien_Update" Method="SinhVien_Update">
+    <Parameter Name="maSV" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="hoTen" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="ngaySinh" Type="System.DateTime" DbType="Date" />
+    <Parameter Name="gioiTinh" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="noiSinh" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="danToc" Type="System.String" DbType="NVarChar(100)" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.ThongTin_SelectAll" Method="ThongTin_SelectAll">
+    <ElementType Name="ThongTin_SelectAllResult">
+      <Column Name="tinh" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="donViChuQuan" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="tenTruong" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="khoaHoc" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="nganhHoc" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="chuyenNganh" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

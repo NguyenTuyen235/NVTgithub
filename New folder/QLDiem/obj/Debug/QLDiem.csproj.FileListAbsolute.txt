@@ -1,0 +1,126 @@
+C:\Users\admin\Documents\Visual Studio 2013\C#\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\Visual Studio 2013\C#\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.frmReportSinhVienLop.resources
+C:\Users\admin\Documents\Visual Studio 2013\C#\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.GiaoDien.frmBangDiemChiTiet.resources
+C:\Users\admin\Documents\Visual Studio 2013\C#\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.GiaoDien.frmChinh.resources
+C:\Users\admin\Documents\Visual Studio 2013\C#\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.GiaoDien.frmLogin.resources
+C:\Users\admin\Documents\Visual Studio 2013\C#\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.GiaoDien.frmLopSinhVien.resources
+C:\Users\admin\Documents\Visual Studio 2013\C#\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.GiaoDien.frmMonDiemHP.resources
+C:\Users\admin\Documents\Visual Studio 2013\C#\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.GiaoDien.frmThongTinHeThong.resources
+C:\Users\admin\Documents\Visual Studio 2013\C#\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.Properties.Resources.resources
+C:\Users\admin\Documents\Visual Studio 2013\C#\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.csproj.GenerateResource.Cache
+C:\Users\admin\Documents\Visual Studio 2013\C#\XayDungPhanMemQLDiem\QLDiem\obj\Debug\RdlCompile.cache
+C:\Users\admin\Documents\Visual Studio 2013\C#\XayDungPhanMemQLDiem\QLDiem\obj\Debug\RdlCompile.compiled
+C:\Users\admin\Documents\Visual Studio 2013\C#\XayDungPhanMemQLDiem\QLDiem\bin\Debug\QLDiem.exe.config
+C:\Users\admin\Documents\Visual Studio 2013\C#\XayDungPhanMemQLDiem\QLDiem\bin\Debug\QLDiem.exe
+C:\Users\admin\Documents\Visual Studio 2013\C#\XayDungPhanMemQLDiem\QLDiem\bin\Debug\QLDiem.pdb
+C:\Users\admin\Documents\Visual Studio 2013\C#\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.exe
+C:\Users\admin\Documents\Visual Studio 2013\C#\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.pdb
+C:\Users\admin\Documents\Visual Studio 2013\C#\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.GiaoDien.frmQuanLyTaiKhoan.resources
+C:\Users\admin\Desktop\XayDungPhanMemQLDiem\XayDungPhanMemQLDiem\QLDiem\bin\Debug\QLDiem.exe.config
+C:\Users\admin\Desktop\XayDungPhanMemQLDiem\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.exe
+C:\Users\admin\Desktop\XayDungPhanMemQLDiem\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.pdb
+C:\Users\admin\Desktop\XayDungPhanMemQLDiem\XayDungPhanMemQLDiem\QLDiem\bin\Debug\QLDiem.exe
+C:\Users\admin\Desktop\XayDungPhanMemQLDiem\XayDungPhanMemQLDiem\QLDiem\bin\Debug\QLDiem.pdb
+C:\Users\admin\Desktop\XayDungPhanMemQLDiem\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\XayDungPhanMemQLDiem\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.frmReportSinhVienLop.resources
+C:\Users\admin\Desktop\XayDungPhanMemQLDiem\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.GiaoDien.frmBangDiemChiTiet.resources
+C:\Users\admin\Desktop\XayDungPhanMemQLDiem\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.GiaoDien.frmChinh.resources
+C:\Users\admin\Desktop\XayDungPhanMemQLDiem\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.GiaoDien.frmLogin.resources
+C:\Users\admin\Desktop\XayDungPhanMemQLDiem\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.GiaoDien.frmLopSinhVien.resources
+C:\Users\admin\Desktop\XayDungPhanMemQLDiem\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.GiaoDien.frmMonDiemHP.resources
+C:\Users\admin\Desktop\XayDungPhanMemQLDiem\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.GiaoDien.frmQuanLyTaiKhoan.resources
+C:\Users\admin\Desktop\XayDungPhanMemQLDiem\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.GiaoDien.frmThongTinHeThong.resources
+C:\Users\admin\Desktop\XayDungPhanMemQLDiem\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.Properties.Resources.resources
+C:\Users\admin\Desktop\XayDungPhanMemQLDiem\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.csproj.GenerateResource.Cache
+C:\Users\admin\Desktop\XayDungPhanMemQLDiem\XayDungPhanMemQLDiem\QLDiem\obj\Debug\RdlCompile.cache
+C:\Users\admin\Desktop\XayDungPhanMemQLDiem\XayDungPhanMemQLDiem\QLDiem\obj\Debug\RdlCompile.compiled
+C:\Users\admin\Desktop\22\XayDungPhanMemQLDiem\QLDiem\bin\Debug\QLDiem.exe.config
+C:\Users\admin\Desktop\22\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.exe
+C:\Users\admin\Desktop\22\XayDungPhanMemQLDiem\QLDiem\obj\Debug\QLDiem.pdb
+C:\Users\admin\Desktop\22\XayDungPhanMemQLDiemHoanThien\QLDiem\bin\Debug\QLDiem.exe.config
+C:\Users\admin\Desktop\22\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.exe
+C:\Users\admin\Desktop\22\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.pdb
+C:\Users\admin\Desktop\22\XayDungPhanMemQLDiemHoanThien\QLDiem\bin\Debug\QLDiem.exe
+C:\Users\admin\Desktop\22\XayDungPhanMemQLDiemHoanThien\QLDiem\bin\Debug\QLDiem.pdb
+C:\Users\admin\Desktop\22\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\22\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.frmReportSinhVienLop.resources
+C:\Users\admin\Desktop\22\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmBangDiemChiTiet.resources
+C:\Users\admin\Desktop\22\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmChinh.resources
+C:\Users\admin\Desktop\22\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmLogin.resources
+C:\Users\admin\Desktop\22\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmLopSinhVien.resources
+C:\Users\admin\Desktop\22\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmMonDiemHP.resources
+C:\Users\admin\Desktop\22\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmQuanLyTaiKhoan.resources
+C:\Users\admin\Desktop\22\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmThongTinHeThong.resources
+C:\Users\admin\Desktop\22\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.Properties.Resources.resources
+C:\Users\admin\Desktop\22\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.csproj.GenerateResource.Cache
+C:\Users\admin\Desktop\22\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\RdlCompile.cache
+C:\Users\admin\Desktop\22\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\RdlCompile.compiled
+C:\Users\admin\Desktop\22\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmLopSVQuyen.resources
+C:\Users\admin\Desktop\22\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmMonDiemHocPhanQuyen.resources
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\bin\Debug\QLDiem.exe.config
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.exe
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.pdb
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\bin\Debug\QLDiem.exe
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\bin\Debug\QLDiem.pdb
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.frmReportSinhVienLop.resources
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmBangDiemChiTiet.resources
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmChinh.resources
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmLogin.resources
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmLopSinhVien.resources
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmLopSVQuyen.resources
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmMonDiemHocPhanQuyen.resources
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmMonDiemHP.resources
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmQuanLyTaiKhoan.resources
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmThongTinHeThong.resources
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.Properties.Resources.resources
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.csproj.GenerateResource.Cache
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\RdlCompile.cache
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\RdlCompile.compiled
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThienOK\XayDungPhanMemQLDiemHoanThien\QLDiem\bin\Debug\QLDiem.exe.config
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThienOK\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.exe
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThienOK\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.pdb
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThienOK\XayDungPhanMemQLDiemHoanThien\QLDiem\bin\Debug\QLDiem.exe
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThienOK\XayDungPhanMemQLDiemHoanThien\QLDiem\bin\Debug\QLDiem.pdb
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThienOK\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmBangDiemChiTiet.resources
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThienOK\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmChinh.resources
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThienOK\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmLogin.resources
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThienOK\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmLopSinhVien.resources
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThienOK\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmLopSVQuyen.resources
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThienOK\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmMonDiemHocPhanQuyen.resources
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThienOK\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmMonDiemHP.resources
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThienOK\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmQuanLyTaiKhoan.resources
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThienOK\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmThongTinHeThong.resources
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThienOK\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.Properties.Resources.resources
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThienOK\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.csproj.GenerateResource.Cache
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThienOK\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\RdlCompile.cache
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThienOK\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\RdlCompile.compiled
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThienOK\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmDoiMatKhauSV.resources
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThienOK\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmReportSinhVienLop.resources
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThienOK\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThienOK\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.csproj.ResolveComReference.cache
+C:\Users\admin\Desktop\ico\anh\phan mem quan ly_\phan mem quan ly sv\QLDiemHoanThien\XayDungPhanMemQLDiemHoanThienOK\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmTroGiup.resources
+C:\Users\admin\Desktop\XayDungPhanMemQLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\bin\Debug\QLDiem.exe.config
+C:\Users\admin\Desktop\XayDungPhanMemQLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.csproj.ResolveComReference.cache
+C:\Users\admin\Desktop\XayDungPhanMemQLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.exe
+C:\Users\admin\Desktop\XayDungPhanMemQLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.pdb
+C:\Users\admin\Desktop\XayDungPhanMemQLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\bin\Debug\QLDiem.exe
+C:\Users\admin\Desktop\XayDungPhanMemQLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\bin\Debug\QLDiem.pdb
+C:\Users\admin\Desktop\XayDungPhanMemQLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\XayDungPhanMemQLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmBangDiemChiTiet.resources
+C:\Users\admin\Desktop\XayDungPhanMemQLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmChinh.resources
+C:\Users\admin\Desktop\XayDungPhanMemQLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmDoiMatKhauSV.resources
+C:\Users\admin\Desktop\XayDungPhanMemQLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmLogin.resources
+C:\Users\admin\Desktop\XayDungPhanMemQLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmLopSinhVien.resources
+C:\Users\admin\Desktop\XayDungPhanMemQLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmLopSVQuyen.resources
+C:\Users\admin\Desktop\XayDungPhanMemQLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmMonDiemHocPhanQuyen.resources
+C:\Users\admin\Desktop\XayDungPhanMemQLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmMonDiemHP.resources
+C:\Users\admin\Desktop\XayDungPhanMemQLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmQuanLyTaiKhoan.resources
+C:\Users\admin\Desktop\XayDungPhanMemQLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmReportSinhVienLop.resources
+C:\Users\admin\Desktop\XayDungPhanMemQLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmThongTinHeThong.resources
+C:\Users\admin\Desktop\XayDungPhanMemQLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.frmTroGiup.resources
+C:\Users\admin\Desktop\XayDungPhanMemQLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.Properties.Resources.resources
+C:\Users\admin\Desktop\XayDungPhanMemQLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.csproj.GenerateResource.Cache
+C:\Users\admin\Desktop\XayDungPhanMemQLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\RdlCompile.cache
+C:\Users\admin\Desktop\XayDungPhanMemQLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\RdlCompile.compiled
+C:\Users\admin\Desktop\XayDungPhanMemQLDiemHoanThien\XayDungPhanMemQLDiemHoanThien\QLDiem\obj\Debug\QLDiem.GiaoDien.ProcessBar.resources
